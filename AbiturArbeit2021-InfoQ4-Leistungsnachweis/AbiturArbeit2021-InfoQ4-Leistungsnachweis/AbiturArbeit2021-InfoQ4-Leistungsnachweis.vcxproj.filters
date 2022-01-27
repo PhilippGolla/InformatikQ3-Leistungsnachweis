@@ -18,5 +18,19 @@
     <ClCompile Include="AbiturArbeit2021-InfoQ4-Leistungsnachweis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Komponente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heizung.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Komponente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heizung.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

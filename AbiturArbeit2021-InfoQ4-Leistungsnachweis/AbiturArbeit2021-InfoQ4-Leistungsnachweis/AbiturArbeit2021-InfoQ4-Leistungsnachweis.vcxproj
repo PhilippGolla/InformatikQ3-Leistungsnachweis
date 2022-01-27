@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbiturArbeit2021-InfoQ4-Leistungsnachweis.cpp" />
+    <ClCompile Include="Heizung.cpp" />
+    <ClCompile Include="Komponente.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Heizung.h" />
+    <ClInclude Include="Komponente.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
