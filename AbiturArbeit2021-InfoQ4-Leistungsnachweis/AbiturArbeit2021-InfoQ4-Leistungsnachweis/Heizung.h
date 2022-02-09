@@ -1,12 +1,13 @@
 #pragma once
-class Heizung
+#include Komponente.h
+class Heizung : public virtual Komponente
 {
-private:
-	static const int MAXTEMPERATUR = 800;
 public:
-	char genCmdReadTemp();
-	char genCmdSetTemp();
-	Heizung();
+	static const int MAXTEMPERATUR = 800;
+	Heizung(char kennung);
+	char* genCmdReadTemp();
+	char* genCmdSetTemp(int temp);
+
 
 };
 
