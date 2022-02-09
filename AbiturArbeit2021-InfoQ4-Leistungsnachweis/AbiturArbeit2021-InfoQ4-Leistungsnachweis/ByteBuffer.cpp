@@ -61,12 +61,20 @@ char* ByteBuffer::array()
 
 bool ByteBuffer::equals(ByteBuffer bb)
 {
-	for ()
-	return false;
+	for () {
+		if (a.array[i] != b.array[i]) {
+			return false;
+		}
+	}
 	return true;
 }
 
 int ByteBuffer::getInt()
 {
-	return 0;
+	int a;
+	for (int i = 0; i <= 4;) {
+		a += bytebuffer[leseposition + i];
+		i++
+	}
+	return a;
 }
